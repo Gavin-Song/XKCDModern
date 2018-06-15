@@ -1,0 +1,210 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: Roboto, Arial !important;
+	background-size: 20px 20px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+}
+
+/*Deals with top headers, boxes, etc...*/
+#topLeft a, #topleft a:hover, h1,h3,h2{
+	font-family: Roboto, Arial !important;
+}
+
+#topLeft ul{
+	top:-15px;
+}
+
+.box, #middleContent .bd .c .s, #middleFooter .bd .c .s{
+	border-width: 0px;
+	background-color: #fff;
+	border-radius:0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+}
+
+#middleContent ul{
+	width: 500px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+}
+
+/*Navigation and buttons*/
+ul.comicNav  li a, .menuCont a, input[type=submit], #middleContent .bd .c .s li a{
+	width: auto !important;
+	font-family: Roboto, Arial !important;
+	background-color: #435F8F !important;
+	color: #FFF !important;
+	font-size: 16px !important;
+	border: 0px solid black !important;
+	padding: 6px 12px;
+	margin: 0 4px;
+	font-weight: normal !important;
+	text-decoration: none;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+ul.comicNav a:hover, ul.comicNav a:focus, .menuCont a:hover, .menuCont a:focus, input[type=submit]:focus, 
+#middleContent .bd .c .s li a:hover, #middleContent .bd .c .s li a:focus {
+	background-color: #B3C7E8 !important;
+	color: #FFF !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	transition: 1s;
+}
+
+/*Titles and misc*/
+#ctitle{
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+
+#bottom {
+	position: relative;
+	margin-top: 3%;
+	padding:25px 15px;
+	width:750px;
+}
+
+#topLeft{
+	padding-left: 0px;
+	padding-top: 18px;
+}
+
+#topLeft a {
+    color: #282B30;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.dialog,.ft,.hd,.bd,.c{
+	background-image:none !important;
+}
+
+ul.comicNav a:hover, ul.comicNav a:focus, .menuCont ul li:hover,.menuCont ul li:focus, input[type=submit]:hover {
+	text-decoration:none;
+	background-color: #FFF !important;
+	color: #6E7B91 !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	transition: 1s;
+}
+#topLeft a:hover {
+    text-decoration: none;
+	color: gray;
+}
+
+h3{
+	width: 90%;
+	left: 5%;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+
+#comicLinks {
+    width: 80%;
+}
+
+/*EXPLAINXKCD*/
+#footer-wrapper, #header-wrapper, .entry, .nav-buttons a:link, #entry-wrapper, #submit, #archive-wrapper,
+#book-wrapper, .map{
+	border-radius: 0px !important;
+}
+
+h1,a:link, .entry{
+	text-decoration: none;
+}
+
+#question{
+	font-size: 14px;
+}
+
+#footer-wrapper, #header-wrapper, #entry-wrapper, #submit {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+#topContainer{
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	width: 100%;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 16px;
+	font-family: Roboto, Arial;
+}
+
+/*Custom CSS, some for archive*/
+.revised_title{
+	margin:0;
+	margin-top:-4px;
+}
+.archive_list{
+	text-align:center;
+	background-color: white;
+	width: 70%;
+	margin:-5px;
+	margin-left: 15%;
+	display: block;
+	padding: 10px;
+	transition: 1s;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}.archive_list:hover{
+	background-color: #eee;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	transition: 1s;
+}
+
+.code_editor{ /*JSON*/
+	width: 50%;
+	background-color:#eee;
+	overflow:scroll;
+	max-height: 400px;
+	margin: 20px;
+	margin-left: 25%;
+	padding: 10px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+/*Search input*/
+#q{
+	border: 1px solid rgb(126, 157, 185) !important; 
+	padding: 6px !important; 
+	background: none !important;
+	text-indent: 0px !important; 
+	outline: none;
+}
+
+/*Mobile xkcd*/
+ul#navButtons li a, ul#footerLinks li a{
+	font-family: Roboto, Arial !important;
+	border-radius: 0px !important;
+}
+
+/*Simple writer*/
+.xkcd-box, #erroneous-mask{
+	border-radius: 0 !important;
+}
