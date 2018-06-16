@@ -1,5 +1,6 @@
 # XKCDModern
-![Screenshot](blob:https://imgur.com/98422448-7c9d-4c0b-977d-216f45a5e77e)
+![Screenshot](https://i.imgur.com/bDc0XSQ.png)
+
 XKCDModern restyles xkcd.com with a more modern look.
 
 Features:
